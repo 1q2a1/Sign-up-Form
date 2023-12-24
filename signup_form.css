@@ -1,3 +1,10 @@
+@font-face {
+    font-family: 'Nordic';
+    src: url('./Norse-Bold.otf') format('opentype');
+}
+
+
+
 * {
     margin: 0;
     padding: 0;
@@ -98,4 +105,5 @@ button{
 .logo-container>h1{
     font-size: 60px;
     padding-right: 20px;
+    font-family: 'Nordic', sans-serif;
 }
